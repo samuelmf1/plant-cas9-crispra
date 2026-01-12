@@ -1,0 +1,6 @@
+.nextflow*
+data
+results
+work
+.pytest*
+__pycache__

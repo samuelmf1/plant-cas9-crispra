@@ -1,0 +1,17 @@
+name: offtarget_pipeline
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - nextflow
+  - openjdk  # Required for Nextflow
+  - pandas
+  - biopython
+  - seaborn
+  - lightgbm=3.3.5
+  - pip
+  - sassy
+  - pip:
+    - rs3
